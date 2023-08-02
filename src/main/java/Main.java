@@ -13,6 +13,7 @@ public class Main {
         Thread reader3 = new Thread(new Reader(library, room, "Годьгаев"), "reader3");
         Thread reader4 = new Thread(new Reader(library, room, "Доржиева"), "reader4");
         Thread reader5 = new Thread(new Reader(library, room, "Бадмаева"), "reader5");
+        Thread reader6 = new Thread(new Reader(library, room, "Бадмаева"), "reader6");
 
         // Запуск потоков
         reader1.start();
